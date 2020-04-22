@@ -1,0 +1,50 @@
+body {position: relative; }
+
+.navbar{background-color:white; opacity: 0.8; }
+
+a {color:black;}
+
+
+.one{margin-top:400px;}
+.two{margin-top:50px;}
+.three{margin-top:200px;}
+
+
+.modal-content{background-color:rgba(255,255,255,0.2); width:100%;}
+
+
+  #section1 {padding-top:50px; width:100%;color: white;background-image:url("images/hailey.jpg"); background-repeat:no-repeat; background-size:cover; background-position: center;}
+  #section2 {padding-top:50px;height:1000px;color: #fff; background-image: url("images/irvin2.jpg"); background-repeat:no-repeat; }
+  #section3{ padding-top:50px;height:1000px; color: #fff; background-color: black; background-repeat:no-repeat; background-size:cover;}
+   #section4 {padding-top:50px;height:1000px;color: #fff; background-image: url("images/background.png")}
+  #section5 {padding-top:5px; width:100%; color: #fff; background-color: rgb(100,104,161);}
+
+  #logo {margin-left:25px; height:30px;}
+
+  .modal-header{border-bottom: 0px;}
+
+
+.modal-dialog {
+    width: 600px;
+    height:600px;
+    margin: 30px auto;
+}
+.use{font-size: 70px; color:white;}
+
+.rocker{font-family: 'New Rocker', cursive;}
+.goth{font-family: 'Didact Gothic', sans-serif; font-size:25px;}
+
+.dropdown-menu{top:48px;}
+.dropdown{top:10px;}
+
+@media screen and (max-width: 480px) {
+	#section1{height:100%; padding-top:100px; color: white;background-image:url("images/hailey.jpg"); background-repeat:no-repeat; background-size:cover;}
+	#section2{height:100%; width:100%;background-image: url("images/Irvin.jpg"); background-repeat:no-repeat; background-size:cover;}
+	#section3{height:100%; width:100%; padding-top:0px;}
+	#section4{height:100%; width:100%;}
+    #section5{height:100%; width:100%;}
+    .one{margin-top:20px;}
+    .three{margin-top:20px;}
+    .goth{font-family: 'Didact Gothic', sans-serif; font-size:15px;}
+    .use{font-size: 40px;}
+}
